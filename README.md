@@ -1,20 +1,38 @@
-# Movie Recommendation System
+# Movie Recommendation System 🎬
 
-This project is a content-based movie recommendation system that helps users discover movies based on genre similarity.
+## Overview
+
+This project is a content-based movie recommendation system that suggests movies based on similarity between movie genres.
 
 ## Features
-- Search movies by title
-- Get recommendations based on genres
-- Simple and interactive UI
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Streamlit
+* Search for a movie
+* Get similar movie recommendations
+* Simple interactive UI built with Streamlit
 
-## How to Run
-1. Install the required libraries
-2. Run the application using:
-   streamlit run app.py
+## Tech Stack
 
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Streamlit
+
+
+## How to Run the Project
+
+1. Clone the repository
+
+git clone https://github.com/yoshitaa12/MovieRecomender.git
+
+2. Navigate to project folder
+
+cd MovieRecomender
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run the application
+
+streamlit run app.py
